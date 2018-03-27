@@ -1,0 +1,21 @@
+git config --global user.name "Your Name Comes Here"
+
+git config --global user.email you@yourdomain.example.com
+
+git config --list
+
+git config --global apply.whitespace nowarn
+
+git config --global color.ui true
+
+git init
+
+git add .
+
+git commit -m "say something"
+
+git remote add origin https://github.com/username/filename.git
+
+git push -u origin master
+
+git status

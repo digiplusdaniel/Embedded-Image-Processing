@@ -3,7 +3,7 @@ import socket
 
 # host = socket.gethostname()
 # port = 5000
-host = '192.168.8.102'  # 對server端為主機位置
+host = '192.168.8.101'  # 對server端為主機位置
 port = 5555
 address = (host, port)
 

@@ -1,12 +1,22 @@
+----------------------首次設定----------------------
+#設定user name
 git config --global user.name "Your Name Comes Here"
-
+#設定user email
 git config --global user.email you@yourdomain.example.com
 
+#查看user name、user email是否設定成功
 git config --list
 
+#忽略空白鍵造成的錯誤
 git config --global apply.whitespace nowarn
 
+#將git輸出加上顏色增加閱讀的方便性
 git config --global color.ui true
+
+#首先創立一個git專用的資料夾 名字隨意
+mkdir filename
+
+cd filename
 
 git init
 

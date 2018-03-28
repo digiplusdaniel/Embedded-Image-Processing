@@ -16,16 +16,33 @@ git config --global color.ui true
 #首先創立一個git專用的資料夾 名字隨意
 mkdir filename
 
+#進入資料夾
 cd filename
 
+#對資料夾進行初始化 初始化的資料夾可以看到.git的隱藏資料夾
 git init
 
+----------------------上傳檔案----------------------
+
+#將檔案複製到資料夾裡
+
+#進入資料夾
+cd filename
+
+#追蹤(add)整個資料夾裡的檔案
 git add .
 
+#對這次提交(commit)加入註解
 git commit -m "say something"
 
-git remote add origin https://github.com/username/filename.git
+#將儲存路徑設成變數
+#路徑僅需設定一次
+git remote add datapath https://github.com/username/filename.git
 
-git push -u origin master
+#上傳commit的資料到儲存路徑的branch中
+git push --force datapath branch
 
+----------------------常用指令----------------------
+#查看資料狀態
 git status
+

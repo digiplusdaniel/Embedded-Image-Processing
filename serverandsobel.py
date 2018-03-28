@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 
 import sys
-sys.path.append('/usr/local/lib/python3.5/site-packages')
+sys.path.append('/usr/local/lib/python2.7/site-packages')
 
 
 import socket
@@ -10,9 +10,9 @@ import numpy as np
 
 
 
-filename = "apple.png"
+filename = "original.png"
 
-host = '192.168.8.101'  # 對server端為主機位置
+host = '192.168.8.102'  # 對server端為主機位置
 port = 5555
 # host = socket.gethostname()
 # port = 5000
@@ -33,7 +33,7 @@ print('Connected by', addr)
 
 ##################################################
 # 開始接收
-print('begin write image file "RandomBGR.png"')
+print('begin write image file {}'.format(filename))
 imgFile = open(filename, 'wb')  # 開始寫入圖片檔
 while True:
     imgData = conn.recv(512)  # 接收遠端主機傳來的數據
@@ -54,6 +54,7 @@ print('server close')
 
 img = cv2.imread(filename,0)
 
+
 h = img.shape[0]
 w = img.shape[1]
 
@@ -65,10 +66,10 @@ Sobel_y = np.zeros((h, w, 1),dtype = np.uint8)
 
 sum_x = 0
 sum_y = 0
-print('access ')
-for x in range(1,h-1):   
-    print('{0:.2f} %'.format(x/h*100))
-    for y in range(1,w-1):
+print('Deal',filename)
+for x in range(1,h-1):
+    print('{0:.2f} %'.format(x*100.0/w))
+    for y in range(1,w-1):     
         sum_x = 0
         sum_y = 0
         for a in range(3):
@@ -89,6 +90,7 @@ print(img.shape)
 cv2.imshow("Sobel_x",Sobel_x)
 cv2.imshow("Sobel_y",Sobel_y)
 cv2.imshow("Sobel",Sobel)
+cv2.imshow("Original",img)
 
 cv2.waitKey(0)  
 cv2.destroyAllWindows()

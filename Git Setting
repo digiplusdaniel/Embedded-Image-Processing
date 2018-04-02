@@ -22,27 +22,74 @@ cd filename
 #對資料夾進行初始化 初始化的資料夾可以看到.git的隱藏資料夾
 git init
 
+----------------------下載檔案----------------------
+#預設會將下載的 git 存成一樣檔名的資料夾
+git clone https://github.com/username/filename.git
+
+#如果要更改成別的名稱的話只需要在網址後面加上你想要更改的名稱即可
+git clone https://github.com/username/filename.git newname
+
 ----------------------上傳檔案----------------------
 
-#將檔案複製到資料夾裡
+ add => commit => (remote) => push
+(追蹤)  (提交)    (指定路徑)   (上傳)
 
-#進入資料夾
+# STEP.1 將檔案複製到資料夾裡
+
+# STEP.2 進入資料夾
 cd filename
 
-#追蹤(add)整個資料夾裡的檔案
+# STEP.3 追蹤(add)整個資料夾裡的檔案
 git add .
+#或指定檔案或資料夾
+git add file
+       (檔案)
 
-#對這次提交(commit)加入註解
+# STEP.4 對這次提交(commit)加入註解
 git commit -m "say something"
+                  (註解)
+                  #指令中 -m 代表 快速提交
 
-#將儲存路徑設成變數
+# STEP.5 將儲存路徑設成變數
 #路徑僅需設定一次
 git remote add datapath https://github.com/username/filename.git
+              (變數名稱)             (網址)
 
-#上傳commit的資料到儲存路徑的branch中
+# STEP.6 上傳commit的檔案到儲存路徑的branch(分支)中
 git push --force datapath branch
+                (變數名稱) (分支名稱)
 
 ----------------------常用指令----------------------
-#查看資料狀態
+#檢查目前 Git 的狀態
 git status
 
+#查看過去 commit 的紀錄
+git log --stat
+                  # --stat 代表更加詳細的資料
+                  # -p 代表更更更加詳細的資料
+
+
+----------------------Branch----------------------
+branch (分支)是 Git 最重要的技能，在一個多人專案的開發過程中我們有時候要開發新功能、修正某個
+Bug或測試某個功能，這時候通常都會從主 branch (master)再開出一條新的 branch 來做，這支新開的
+branch 會帶著你的主 branch 目前的最新狀態，當你完成你所要開發的新功能/ Bug 修正後確認沒問題
+就再把它merge(合併)回主 Branch ，如此便完成了新功能的開發或是 Bug 的修正。
+
+#開啟 Git 內建的 GUI 
+gitk --all &      # & 代表背景執行
+
+#查詢擁有的Branch
+git branch
+
+#設定Branch(分支)
+#有效利用分支進行多開發者的管理也可以將檔案分門別類
+git branch name
+
+#開發過程中將Branch合併回 主branch (master)
+git rebase master
+
+#開發完畢後將Branch合併回 主branch (master)
+git merge master
+
+----------------------參考網址----------------------
+https://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/

@@ -21,3 +21,14 @@ C:\opencv\build\python\2.7\x86 (32位元)
 將 cv2.pyd 複製到 C:\Python27\Lib\site-packages 路徑下
 
 
+
+opencv-contrib:
+ pip install opencv-contrib-python
+
+
+matplotlib:
+https://pypi.org/project/matplotlib/#files
+
+pip install matplotlib
+or
+python -m pip install matplotlib-2.2.2-cp27-cp27m-win32.whl

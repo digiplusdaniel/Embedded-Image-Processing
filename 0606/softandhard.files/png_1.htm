@@ -1,0 +1,165 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+繪圖2
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 0.244792;
+	viewMgr.visBBoxRight = 10.438279;
+	viewMgr.visBBoxBottom = 1.372744;
+	viewMgr.visBBoxTop = 7.072717;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="顯示選取圖形的位置" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = '若要啟用完整功能，例如全景和縮放，<a href="http://www.microsoft.com/silverlight/resources/install.aspx" target="parent">按一下此處</a> 需安裝 Silverlight 外掛程式。';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="頁-1" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="1 UI_Thread: Show R_Photo, M_Photo, L_Photo by VGA" origTitle="1 UI_Thread: Show R_Photo, M_Photo, L_Photo by VGA" TITLE="1 UI_Thread: Show R_Photo, M_Photo, L_Photo by VGA" HREF="https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py" target="_top" COORDS="290,337,687,337,687,290,290,290,290,337" onmouseover="UpdateTooltip(this,0,18,event)" onfocus="UpdateTooltip(this,0,18,event)" onclick="return OnShapeClick(0,18,event);" onkeyup="OnShapeKey(0,18,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="3 Network_Thread: Send Image[3] by UDP" origTitle="3 Network_Thread: Send Image[3] by UDP" TITLE="3 Network_Thread: Send Image[3] by UDP" HREF="https://github.com/digiplusdaniel/embedded/blob/daniel/server.py" target="_top" COORDS="422,289,687,289,687,243,422,243,422,289" onmouseover="UpdateTooltip(this,0,17,event)" onfocus="UpdateTooltip(this,0,17,event)" onclick="return OnShapeClick(0,17,event);" onkeyup="OnShapeKey(0,17,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="2 Main: Image[3] SaveImage(R_Photo, M_Photo, L_Photo) //Save..." origTitle="2 Main: Image[3] SaveImage(R_Photo, M_Photo, L_Photo) //Save..." TITLE="2 Main: Image[3] SaveImage(R_Photo, M_Photo, L_Photo) //Save..." HREF="https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py" target="_top" COORDS="422,242,687,242,687,148,422,148,422,242" onmouseover="UpdateTooltip(this,0,16,event)" onfocus="UpdateTooltip(this,0,16,event)" onclick="return OnShapeClick(0,16,event);" onkeyup="OnShapeKey(0,16,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="1 Thread3: Read Camera3 Image form USB #3" origTitle="1 Thread3: Read Camera3 Image form USB #3" TITLE="1 Thread3: Read Camera3 Image form USB #3" HREF="https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py" target="_top" COORDS="390,289,422,289,422,242,385,242,385,240,382,240,375,240,337,240,327,240,327,242,290,242,290,289,322,289,322,290,349,290,352,290,377,290,384,290,390,290,390,289" onmouseover="UpdateTooltip(this,0,15,event)" onfocus="UpdateTooltip(this,0,15,event)" onclick="return OnShapeClick(0,15,event);" onkeyup="OnShapeKey(0,15,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="1 Thread2: Read Camera2 Image form USB #2" origTitle="1 Thread2: Read Camera2 Image form USB #2" TITLE="1 Thread2: Read Camera2 Image form USB #2" HREF="https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py" target="_top" COORDS="390,242,422,242,422,195,385,195,385,192,382,192,375,192,337,192,327,192,327,195,290,195,290,242,322,242,322,242,352,242,377,242,384,242,390,242,390,242" onmouseover="UpdateTooltip(this,0,14,event)" onfocus="UpdateTooltip(this,0,14,event)" onclick="return OnShapeClick(0,14,event);" onkeyup="OnShapeKey(0,14,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="1 Thread1: Read Camera1 Image form USB #1" origTitle="1 Thread1: Read Camera1 Image form USB #1" TITLE="1 Thread1: Read Camera1 Image form USB #1" HREF="https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py" target="_top" COORDS="390,195,422,195,422,148,385,148,385,145,382,145,375,145,337,145,327,145,327,148,290,148,290,195,322,195,322,195,349,195,352,195,377,195,384,195,390,195,390,195" onmouseover="UpdateTooltip(this,0,3,event)" onfocus="UpdateTooltip(this,0,3,event)" onclick="return OnShapeClick(0,3,event);" onkeyup="OnShapeKey(0,3,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>

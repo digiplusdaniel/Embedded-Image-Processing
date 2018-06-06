@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="頁-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>連接器</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{FAB7C34C-0445-4161-A16D-4C2B4A8F4D63}" Name="矩形.27" NameU="Rectangle.27" Master="2">
+					<Text>CAR</Text>
+					<XForm>
+						<PinX Unit="MM">4.160433070866142</PinX>
+						<PinY Unit="MM">4.202755905511810</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{F5ED78CC-D879-43C2-A072-405D909E2B81}" Name="矩形" NameU="Rectangle" Master="2">
+					<Text>Send R_Photo Output:(640*480 )</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204725</PinX>
+						<PinY Unit="MM">6.308278077082469</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{78550421-BD7C-43FD-854D-CDB0B489B7CA}" Name="矩形.3" NameU="Rectangle.3" Master="2">
+					<Text>1 Thread1:
+Read Camera1 Image form USB #1</Text>
+					<XForm>
+						<PinX Unit="MM">3.954377026401112</PinX>
+						<PinY Unit="MM">5.290354330708662</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="4" UniqueID="{0DD3BD8C-8314-4AC3-9C99-A7563B7BF87D}" Name="矩形.4" NameU="Rectangle.4" Master="2">
+					<Text>Car Computer</Text>
+					<XForm>
+						<PinX Unit="MM">5.333487725798982</PinX>
+						<PinY Unit="MM">3.395814034275128</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{02E12B26-4B82-46A5-A889-0213BC9DA919}" Name="矩形.5" NameU="Rectangle.5" Master="2">
+					<Text>CLOUD</Text>
+					<XForm>
+						<PinX Unit="MM">9.448818897637795</PinX>
+						<PinY Unit="MM">4.950240594925635</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{622121A4-F429-4554-A15F-22D61778B4A4}" Name="矩形.6" NameU="Rectangle.6" Master="2">
+					<Text>Camera 1</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204725</PinX>
+						<PinY Unit="MM">5.570089100704516</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{20BA18AD-BAFF-46DB-A20F-196E10C90005}" Name="矩形.7" NameU="Rectangle.7" Master="2">
+					<Text>Camera 2</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">3.749222958972233</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{EAD49BA5-C03C-4571-ADAD-D0ECD63E7686}" Name="矩形.11" NameU="Rectangle.11" Master="2">
+					<Text>Camera 3</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">1.903750518027352</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{01371E12-62F7-4892-99C9-19C6077F0273}" Name="矩形.12" NameU="Rectangle.12" Master="2">
+					<Text>Send M_Photo Output:(640*480 )</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">4.512018234562785</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{C545E7A1-18A1-4726-BBE3-C4EBD8865FE9}" Name="矩形.13" NameU="Rectangle.13" Master="2">
+					<Text>Send L_Photo Output:(640*480 )</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204724</PinX>
+						<PinY Unit="MM">2.641939494405304</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{493DBB58-7077-4B26-9DBA-247FE549E3E3}" Name="動態連接器" NameU="Dynamic connector" Master="4">
+					<Text>R_Photo </Text>
+					<XForm>
+						<PinX Unit="MM">2.567739694302918</PinX>
+						<PinY Unit="MM">4.482951567489822</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="12" UniqueID="{A566AD99-03E8-4945-B1E2-71C7EA6B832B}" Name="動態連接器.15" NameU="Dynamic connector.15" Master="4">
+					<Text>M_Photo </Text>
+					<XForm>
+						<PinX Unit="MM">2.567739694302918</PinX>
+						<PinY Unit="MM">3.572518496623681</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="13" UniqueID="{6D36571D-064C-4093-AC62-7DF5534B06D7}" Name="動態連接器.17" NameU="Dynamic connector.17" Master="4">
+					<Text>L_Photo</Text>
+					<XForm>
+						<PinX Unit="MM">2.567739694302918</PinX>
+						<PinY Unit="MM">2.649782276151240</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="14" UniqueID="{7E94163E-307C-4D43-9A80-D0DBFA58842B}" Name="矩形.14" NameU="Rectangle.14" Master="2">
+					<Text>1 Thread2:
+Read Camera2 Image
+form USB #2</Text>
+					<XForm>
+						<PinX Unit="MM">3.954377026401112</PinX>
+						<PinY Unit="MM">4.798228346456694</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="15" UniqueID="{F4ABBB86-E5BE-47D0-8132-445CE38CB3F8}" Name="矩形.19" NameU="Rectangle.19" Master="2">
+					<Text>1 Thread3:
+Read Camera3 Image
+form USB #3</Text>
+					<XForm>
+						<PinX Unit="MM">3.954377026401113</PinX>
+						<PinY Unit="MM">4.306102362204726</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="16" UniqueID="{4313485F-59F7-4482-9967-048B4834AEB9}" Name="矩形.20" NameU="Rectangle.20" Master="2">
+					<Text>2 Main:
+Image[3] SaveImage(R_Photo, M_Photo, L_Photo)
+//Save Image at the same time
+</Text>
+					<XForm>
+						<PinX Unit="MM">6.022464103751737</PinX>
+						<PinY Unit="MM">5.044291338582678</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="17" UniqueID="{7D2C7646-16A5-46E4-907D-CFAE508CA36A}" Name="矩形.21" NameU="Rectangle.21" Master="2">
+					<Text>3 Network_Thread:
+Send Image[3] by UDP</Text>
+					<XForm>
+						<PinX Unit="MM">6.022464103751739</PinX>
+						<PinY Unit="MM">4.303641730406155</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/daniel/server.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/daniel/server.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="18" UniqueID="{4D3C2160-77A5-4F62-BE1C-8E5EAB605908}" Name="矩形.23" NameU="Rectangle.23" Master="2">
+					<Text>1 UI_Thread:
+Show R_Photo, M_Photo, L_Photo by VGA</Text>
+					<XForm>
+						<PinX Unit="MM">5.333487725798982</PinX>
+						<PinY Unit="MM">3.811660490968042</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/eason/USBCam.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="19" UniqueID="{02E32B7F-CFD1-4201-8E3B-D09ABBB6BD62}" Name="動態連接器.24" NameU="Dynamic connector.24" Master="4">
+					<Text>VGA</Text>
+					<XForm>
+						<PinX Unit="MM">5.333487725798982</PinX>
+						<PinY Unit="MM">2.684547244094489</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="20" UniqueID="{70D0E901-156F-44C2-93A2-0B30CEC67832}" Name="動態連接器.32" NameU="Dynamic connector.32" Master="4">
+					<Text>Image[3]</Text>
+					<XForm>
+						<PinX Unit="MM">7.933070860675441</PinX>
+						<PinY Unit="MM">4.626941162665892</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="21" UniqueID="{29AD28E5-2DC4-4D50-B02B-FE4A3A819C29}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>1.同時存下三個影像(Image)，並由UDP(4G)輸出Image[3]至雲端
+2.VGA輸出USB輸入的三個影像(Image)</Text>
+					<XForm>
+						<PinX Unit="MM">5.600393700787402</PinX>
+						<PinY Unit="MM">6.026082675288042</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{D9FECF5C-0425-48DF-AA0E-B72955D8526E}" Name="矩形.44" NameU="Rectangle.44" Master="2">
+					<Text>Monitor</Text>
+					<XForm>
+						<PinX Unit="MM">5.333487725798982</PinX>
+						<PinY Unit="MM">1.973280453913849</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{61C52AEB-5DF4-4CE2-921C-8CD47B8CE2C6}" Name="Sheet.23" NameU="Sheet.23">
+					<Text>USB</Text>
+					<XForm>
+						<PinX Unit="MM">2.871943638624119</PinX>
+						<PinY Unit="MM">3.060246581019477</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{6F53167F-A60B-435E-B0DF-2977B3ADBA61}" Name="Sheet.24" NameU="Sheet.24">
+					<Text>4G</Text>
+					<XForm>
+						<PinX Unit="MM">7.891628677994195</PinX>
+						<PinY Unit="MM">5.196850393700787</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

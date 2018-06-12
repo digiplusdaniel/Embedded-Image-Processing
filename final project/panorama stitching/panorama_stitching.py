@@ -2,6 +2,7 @@ import sys
 import cv2
 import imutils
 import numpy as np
+import time
 
 # Use the keypoints to stitch the images
 def get_stitched_image(img1, img2, M):
@@ -95,16 +96,18 @@ def equalize_histogram_color(img):
 
 # Main function definition
 def main():
-	
+	#get time of program's execution
+	start_time = time.time()
+
 	# Get input set of images
-	image_left = cv2.imread('road_left.jpg')
-	image_middle = cv2.imread('road_middle.jpg')
-	image_right = cv2.imread('road_right.jpg')
+	image_left = cv2.imread('road_left.jpg',0)
+	image_middle = cv2.imread('road_middle.jpg',0)
+	image_right = cv2.imread('road_right.jpg',0)
 
 	# Equalize histogram
-	image_left = equalize_histogram_color(image_left)
-	image_middle = equalize_histogram_color(image_middle)
-	image_right = equalize_histogram_color(image_right)
+	#image_left = equalize_histogram_color(image_left)
+	#image_middle = equalize_histogram_color(image_middle)
+	#image_right = equalize_histogram_color(image_right)
 
 	image_left = imutils.resize(image_left, width=400)
 	image_middle = imutils.resize(image_middle, width=400)
@@ -119,16 +122,20 @@ def main():
 
 	# Stitch the images together using homography matrix
 	result_image = get_stitched_image(image_middle, image_left, M)
+	print("first stitching		--- %s seconds ---" % (time.time() - start_time))
 
 	# Use SIFT to find keypoints and return homography matrix
 	M =  get_sift_homography(result_image, image_right)
 
 	# Stitch the images together using homography matrix
 	result_image = get_stitched_image(image_right, result_image, M)
+	print("second stitching	--- %s seconds ---" % (time.time() - start_time))
 
 	# Write the result to the same directory
 	result_image_name = 'results.jpg'
 	cv2.imwrite(result_image_name, result_image)
+
+	print("			--- %s seconds ---" % (time.time() - start_time))
 
 	# Show the resulting image
 	cv2.imshow ('Result', result_image)

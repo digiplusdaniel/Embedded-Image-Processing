@@ -100,45 +100,45 @@ def main():
 	start_time = time.time()
 
 	# Get input set of images
-	image_left = cv2.imread('road_left.jpg',0)
-	image_middle = cv2.imread('road_middle.jpg',0)
-	image_right = cv2.imread('road_right.jpg',0)
+	L_Photo = cv2.imread('road_left.jpg',0)
+	M_Photo = cv2.imread('road_middle.jpg',0)
+	R_Photo = cv2.imread('road_right.jpg',0)
 
 	# Equalize histogram
-	#image_left = equalize_histogram_color(image_left)
-	#image_middle = equalize_histogram_color(image_middle)
-	#image_right = equalize_histogram_color(image_right)
+	#L_Photo = equalize_histogram_color(L_Photo)
+	#M_Photo = equalize_histogram_color(M_Photo)
+	#R_Photo = equalize_histogram_color(R_Photo)
 
-	image_left = imutils.resize(image_left, width=400)
-	image_middle = imutils.resize(image_middle, width=400)
-	image_right = imutils.resize(image_right, width=400)
+	L_Photo = imutils.resize(L_Photo, width=400)
+	M_Photo = imutils.resize(M_Photo, width=400)
+	R_Photo = imutils.resize(R_Photo, width=400)
 
 	# Show input images
-	#input_images = np.hstack( (image_left, image_middle) )
+	#input_images = np.hstack( (L_Photo, M_Photo) )
 	#cv2.imshow ('Input Images', input_images)
 
 	# Use SIFT to find keypoints and return homography matrix
-	M =  get_sift_homography(image_left, image_middle)
+	M =  get_sift_homography(L_Photo, M_Photo)
 
 	# Stitch the images together using homography matrix
-	result_image = get_stitched_image(image_middle, image_left, M)
+	L-M_Photo = get_stitched_image(M_Photo, L_Photo, M)
 	print("first stitching		--- %s seconds ---" % (time.time() - start_time))
 
 	# Use SIFT to find keypoints and return homography matrix
-	M =  get_sift_homography(result_image, image_right)
+	M =  get_sift_homography(L-M_Photo, R_Photo)
 
 	# Stitch the images together using homography matrix
-	result_image = get_stitched_image(image_right, result_image, M)
+	L-M-R_Photo = get_stitched_image(R_Photo, L-M_Photo, M)
 	print("second stitching	--- %s seconds ---" % (time.time() - start_time))
 
 	# Write the result to the same directory
-	result_image_name = 'results.jpg'
-	cv2.imwrite(result_image_name, result_image)
+	Photo_name = 'L-M-R_Photo.jpg'
+	cv2.imwrite(Photo_name, L-M-R_Photo)
 
 	print("			--- %s seconds ---" % (time.time() - start_time))
 
 	# Show the resulting image
-	cv2.imshow ('Result', result_image)
+	cv2.imshow ('L-M-R_Photo', L-M-R_Photo)
 	cv2.waitKey()
 
 # Call main function

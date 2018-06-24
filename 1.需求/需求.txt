@@ -1,16 +1,23 @@
-�\��:   ==>GUI�e��
-��������:
-�~������:
-�į�B����:
-�禬:
+Function:影像縫合成全景畫面
 
+內部介面:
+  MCU藉由TCP/IP傳至雲端進行運算，雲將運算結果傳向UI
+  1. MQTT mode:TCP/IP
+  2. Socket mode:TCP/IP
+  3. Monitor UI
+	
+外部介面: 
+  攝影機USB傳送到MCU (影像輸入端)，監控端的Monitor輸出
+  1. web camera * 3
+  2. Raspberry Pi * 4
+  3. VGA 顯示
+                                  
+效能、限制: 
+  1. 五秒一張
+  2. 影像角度140度
 
-�r�p��:
-�i�z�L�ù��ݨ�T�Ӥ��v���A�åB�W�Ƕ��ݡC
-MCU�|������޲z�̫���ĵ�i�r�p�̤��}�r�p�欰�C
-��:
-������T��Ϥ����_�X�B��
-�������t�B��귽
-�޲z��:
-�H�������覡��g�bUI�W�A�ʵ��r�p�̦欰�Ҧ�
-�U�Fĵ�i���O
+驗收:
+  在UI端可以讀取到以縫合的全景畫面。
+  1. 駕駛者: 可透過螢幕看到三個方位影像，並且上傳雲端。 
+  2. 雲: 接收到三方圖片做縫合處裡 妥善分配運算資源 。
+  3. 管理者: 以環景的方式投射在UI上。

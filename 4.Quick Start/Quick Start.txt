@@ -1,3 +1,40 @@
-¦w¸Ë¤â¥U:
-¨Ï¥Î¤â¥U:   ¹Ï¤ù¡B¹Ï¤ù..    
+ä½¿ç”¨ç’°å¢ƒ :
+Raspbian  -- Stretch
+Python    -- 2.7
+Numpy     -- 1.12.1
+OpenCV    -- 3.3.0
+Paho-mqtt -- 1.3.1
+
+å®‰è£æ‰‹å†Š : 
+Raspbian Python Numpy OpenCV :
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+
+Paho-mqtt :
+$ sudo pip install paho-mqtt
+https://pypi.org/project/paho-mqtt/
+
+
+ä½¿ç”¨æ‰‹å†Š : 
+MCU
+1. Get image
+2. Combine
+3. Send
+
+Raspberry Pi 1
+1. Recieve 
+2. Send
+
+Raspberry Pi 2
+1. Recieve 
+2. Python panorama stitching.py
+3. Send
+
+Raspberry Pi 3
+1. Recieve 
+2. Python panorama stitching.py
+3. Send
+
+UI
+1. Recieve 
+2. Display
 

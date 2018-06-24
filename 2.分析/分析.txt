@@ -1,13 +1,12 @@
 Survey
+  使用條件:
+    1. 照片需清晰並且有互相重疊的部分
+    2. 鏡頭須保持在一樣的水平高度
+    3. 鏡頭所拍攝的物體需為靜止狀態
 
-使用條件:
-  1. 照片需清晰並且有互相重疊的部分
-  2. 鏡頭須保持在一樣的水平高度
-  3. 鏡頭所拍攝的物體需為靜止狀態
-
-元件選用:
-  1. EZCam PCM-512 (web camera)
-  2. Raspberry Pi 3
+  元件選用:
+    1. EZCam PCM-512 (web camera)
+    2. Raspberry Pi 3
 
 Glossary
   1. Web Camera

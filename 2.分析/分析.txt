@@ -1,7 +1,7 @@
 Survey
   使用條件:(Conditions of usage)
-    1. 照片需清晰並且有互相重疊的部分(images need clear and Overlapping parts)
-    2. 鏡頭須保持在一樣的水平高度(Camera need to stay at the same level height)
+    1. 照片需清晰並且有互相重疊的部分(images need  to be clear and Overlapping parts)
+    2. 鏡頭須保持在一樣的水平高度(Cameras need to stay at the same level height)
     3. 鏡頭所拍攝的物體需為靜止狀態(object need to static state)
 
   元件選用:(Component select)

@@ -1,26 +1,24 @@
-Function:影像縫合成全景畫面(image stitch to panorama)
+Function: Panorama Stitching
 
-內部介面:(Inner Interface)
-  MCU藉由TCP/IP傳至雲端進行運算，雲將運算結果傳向UI
+Inner Interface
+  MCU send the images to cloud by TCP/IP, and compute on cloud. After that, send the result to UI
   1. MQTT mode:TCP/IP
   2. Socket mode:TCP/IP
   3. Monitor UI
 	
-外部介面:(External Interface) 
-  攝影機USB傳送到MCU (影像輸入端)，監控端的Monitor輸出
+External Interface 
+  MCU get the images from camera by USB, and display on the monitor
   1. web camera * 3
   2. Raspberry Pi * 4
   3. VGA display
                                   
-效能、限制:(Effiency、Limit) 
-  1. 五秒一張(5 sec/page)
-  2. 影像角度140度(image angle 140°)
+Effiency、Limit
+  1. 5 sec/page
+  2. image angle 140°
 
-驗收:(Verification)
-  在UI端可以讀取到以縫合的全景畫面。
-  1. 駕駛者: 可透過螢幕看到三個方位影像，並且上傳雲端。(Driver:Can watch 3 directions of images through screen, and upload to Cloud
-     MCU will receive manager’s warning for bad driving behavior) 
-  2. 雲: 接收到三方圖片做縫合處裡 妥善分配運算資源 。(Cloud:Receive 3 images and stitchresource allocation properly)
-  3. 管理者: 以環景的方式投射在UI上。(Manager、Supervisor:Display panorama on UI, and monitor driver’s behavior, Send down the warning     instruction) 
-
+Verification
+  UI can read stitched panorama
+  1. Driver  : Can watch 3 directions of images by screen, and upload to Cloud
+  2. Cloud   : Receive 3 images and stitching, allocating the resource properly
+  3. Manager : Display panorama on UI
 

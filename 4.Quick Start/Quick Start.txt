@@ -16,9 +16,7 @@ https://pypi.org/project/paho-mqtt/
 
 使用手冊 : 
 MCU
-1. Get image
-2. Combine
-3. Send
+1. Python Car.py
 
 Raspberry Pi 1
 1. Recieve 

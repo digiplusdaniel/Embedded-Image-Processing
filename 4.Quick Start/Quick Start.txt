@@ -1,11 +1,11 @@
-使用環境 :
+Environment :
 Raspbian  -- Stretch
 Python    -- 2.7
 Numpy     -- 1.12.1
 OpenCV    -- 3.3.0
 Paho-mqtt -- 1.3.1
 
-安裝手冊 : 
+Installation Manual : 
 Raspbian Python Numpy OpenCV :
 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 
@@ -14,7 +14,7 @@ $ sudo pip install paho-mqtt
 https://pypi.org/project/paho-mqtt/
 
 
-使用手冊 : 
+Manual : 
 MCU
 1. Python Car.py
 

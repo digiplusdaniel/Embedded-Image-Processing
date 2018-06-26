@@ -23,3 +23,4 @@ Verification
   3. Manager : Display panorama on UI
 
 ![Usage diagram](https://github.com/digiplusdaniel/embedded/blob/master/1.Requirement/Requirement.png)
+![Arch](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/Architecture%20diagram.png)

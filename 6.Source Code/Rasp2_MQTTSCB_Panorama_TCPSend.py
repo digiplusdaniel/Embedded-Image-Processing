@@ -26,8 +26,8 @@ Resize_Image_Y = 640
 Recieve_filename = 'MQTTrec.jpg'
 
 #TCP
-TCP_host = '192.168.1.111'
-TCP_port = 5555
+TCP_host = '192.168.1.11'
+TCP_port = 5656
 TCP_address = (TCP_host, TCP_port)
 
 Send_filename = 'L_M_R_Photo.jpg'

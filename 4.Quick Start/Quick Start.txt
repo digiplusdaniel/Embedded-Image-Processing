@@ -35,4 +35,3 @@ Raspberry Pi 3
 UI
 1. Recieve 
 2. Display
-

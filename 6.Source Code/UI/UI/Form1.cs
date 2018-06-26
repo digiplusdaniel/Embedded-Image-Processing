@@ -29,7 +29,7 @@ namespace UI
         Thread tcp = null;
         private void TCP_Main()
         {
-            IPAddress serverIP = IPAddress.Parse("192.168.1.11");
+            IPAddress serverIP = IPAddress.Parse(GetLocalIPAddress());
             TcpListener tcplistener = new TcpListener(serverIP, 5656);
             while (true)
             {
@@ -48,7 +48,7 @@ namespace UI
                     Console.WriteLine("準備接受圖檔");
 
 
-                    byte[] bytes = new byte[1024 * 200];
+                    byte[] bytes = new byte[1024 * 500];
                     flag_new = false;
                     Thread.Sleep(600);
                     FileStream ff = new FileStream("rx.eason", FileMode.Create);

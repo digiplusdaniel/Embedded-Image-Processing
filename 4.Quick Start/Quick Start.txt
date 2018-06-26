@@ -15,23 +15,13 @@ https://pypi.org/project/paho-mqtt/
 
 
 Manual : 
-MCU
-1. Python Car.py
+MCU --> MCU_TCPSend.py
 
-Raspberry Pi 1
-1. Recieve 
-2. Send
+Raspberry Pi 1 --> Rasp1_MQTTPUB_ImageArray_TCPRecive.py
 
-Raspberry Pi 2
-1. Recieve 
-2. Python panorama stitching.py
-3. Send
+Raspberry Pi 2 --> Rasp2_MQTTSCB_Panorama_TCPSend.py
 
-Raspberry Pi 3
-1. Recieve 
-2. Python panorama stitching.py
-3. Send
+Raspberry Pi 3 --> Rasp3_MQTTSCB_Panorama_TCPSend.py
 
-UI
-1. Recieve 
-2. Display
+UI --> UI.exe
+

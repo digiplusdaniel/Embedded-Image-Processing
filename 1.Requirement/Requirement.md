@@ -14,7 +14,7 @@ External Interface
                                   
 Effiency¡BLimit
   1. 5 sec/page
-  2. image angle 140¢X
+  2. image angle < 140° 
 
 Verification
   UI can read stitched panorama

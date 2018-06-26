@@ -6,9 +6,11 @@ Install
   paho-mqtt
   https://pypi.org/project/paho-mqtt/
 
-SURF
-
+Panorama
+  https://www.pyimagesearch.com/2016/01/11/opencv-panorama-stitching/
+  
 MQTT
-
+  https://hk.saowen.com/a/1ba58d2cfe37a1171d41c7c419510318d3d25034c6fcb9a548ae1445a6e00d0c
+  
 Socket
-
+  https://pymotw.com/2/socket/tcp.html

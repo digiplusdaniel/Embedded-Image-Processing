@@ -12,7 +12,7 @@ External Interface
   2. Raspberry Pi * 4
   3. VGA display
                                   
-Effiency¡BLimit
+Effiency & Limit
   1. 5 sec/page
   2. image angle < 140° 
 

@@ -3,7 +3,7 @@ Survey
     1. Images need to be clear and have overlapping parts
     2. Cameras need to stay at the same level height
     3. Object need to static state
-
+[123](https://github.com/digiplusdaniel/embedded/blob/master/1.Requirement/Cloudcnt%20.htm)
   Component select
     1. EZCam PCM-512 (webcam)
     2. Raspberry Pi 3

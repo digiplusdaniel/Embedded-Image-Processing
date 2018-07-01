@@ -17,8 +17,8 @@ M_Camera_DrivesID = 1
 R_Camera_DrivesID = 2
 
 #TCP
-host = '192.168.1.111'  # ¹ïserverºÝ¬°¥DŸ÷Šìžm
-port = 5555
+host = '192.168.1.111'   # sever's IP
+port = 5555 #sever's port
 address = (host, port)
 
 Send_Image_X = 240

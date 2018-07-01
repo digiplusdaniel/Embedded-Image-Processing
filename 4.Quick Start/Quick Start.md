@@ -1,8 +1,12 @@
 Environment :
 Raspbian  -- Stretch
+
 Python    -- 2.7
+
 Numpy     -- 1.12.1
+
 OpenCV    -- 3.3.0
+
 Paho-mqtt -- 1.3.1
 
 Installation Manual : 

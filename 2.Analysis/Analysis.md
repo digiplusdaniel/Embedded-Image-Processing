@@ -17,13 +17,13 @@ Glossary
      
   3. TCP/IP
      The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite.
-     [Socket](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Socket_Breakdown.png)
+     ![Socket](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Socket_Breakdown.png)
      
   4. MQTT
      MQTT(Message Queuing Telemetry Transport) is an ISO standard publish-subscribe-based messaging protocol. It works on top of the  
      TCP/IP protocol. It is designed for connections with remote locations where a "small code footprint" is required or the network 
      bandwidth is limited.
-     [MQTT](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/MQTT_Breakdown.png)
+     ![MQTT](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/MQTT_Breakdown.png)
      
   5. UI
      The means by which the user and a computer system interact, in particular the use of input devices and software
@@ -33,4 +33,4 @@ Glossary
      
   7. Panorama Stitching
      An unbroken view of the whole region surrounding an observer.
-     [Panorama](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Panorama_Breakdown.png)
+     ![Panorama](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Panorama_Breakdown.png)

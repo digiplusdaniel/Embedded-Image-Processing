@@ -3,7 +3,7 @@ Survey
     1. Images need to be clear and have overlapping parts
     2. Cameras need to stay at the same level height
     3. Object need to static state
-[123](https://github.com/digiplusdaniel/embedded/blob/master/1.Requirement/Cloudcnt%20.htm)
+    
   Component select
     1. EZCam PCM-512 (webcam)
     2. Raspberry Pi 3
@@ -17,8 +17,10 @@ Glossary
      
   3. TCP/IP
      The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite.
-     ![Socket](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Socket_Breakdown.png)
      
+     [![Socket]](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Socket_Breakdown.png) [baidu]:https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/MCU_TCPSend.py "123"
+
+
   4. MQTT
      MQTT(Message Queuing Telemetry Transport) is an ISO standard publish-subscribe-based messaging protocol. It works on top of the  
      TCP/IP protocol. It is designed for connections with remote locations where a "small code footprint" is required or the network 

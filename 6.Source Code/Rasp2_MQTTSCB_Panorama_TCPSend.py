@@ -11,11 +11,11 @@ import socket
 import time
 
 #MQTT Setting
-MQTT_broker="m12.cloudmqtt.com"
-MQTT_port =14699
+MQTT_broker="m12.cloudmqtt.com" # fiil up the MQTT infomation -> Server
+MQTT_port =14699 # fiil up the MQTT infomation -> Port
 
-MQTT_Accout = "hsfirkgo"
-MQTT_Password = "s209oFyCMG-9"
+MQTT_Accout = "hsfirkgo" # fiil up the MQTT infomation -> User
+MQTT_Password = "s209oFyCMG-9" # fiil up the MQTT infomation -> Password
 
 MQTT_Recieve_Image_X = 240
 MQTT_Recieve_Image_Y = 320

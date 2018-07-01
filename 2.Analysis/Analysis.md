@@ -19,7 +19,7 @@ Glossary
      The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite.
      
      [![Socket]](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/Socket_Breakdown.png)
-     [Socket]:https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/MCU_TCPSend.py "Socket"
+     :https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/MCU_TCPSend.py "Socket"
 
 
   4. MQTT

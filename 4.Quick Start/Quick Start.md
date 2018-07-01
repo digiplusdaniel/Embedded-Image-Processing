@@ -28,16 +28,16 @@ step2. create a free broker and you can get the MQTT infomation
 
 step3. connect to MQTT monitor->websocket UI(P.S. if you want to see the dataflow)
 
-step2. download embedded/6.Source Code/MCU_TCPSend.py、Rasp1_MQTTPUB_ImageArray_TCPRecive.py、Rasp2_MQTTSCB_Panorama_TCPSend.py
+step4. download embedded/6.Source Code/MCU_TCPSend.py、Rasp1_MQTTPUB_ImageArray_TCPRecive.py、Rasp2_MQTTSCB_Panorama_TCPSend.py
 
-step3. open Raspberry's terminal and cd to the your file location 
+step5. open Raspberry's terminal and cd to the your file location 
 
-step4. execute the program
+step6. execute the program
 ![RSP1](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/1.PNG)
 ![MCU](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/3.PNG)
 ![RSP2](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/2.PNG)
 
-step5. open UI.exe and the panorama will show on UI
+step6. open UI.exe and the panorama will show on UI
 ![UI](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/UI.PNG)
 
 

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="頁-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>連接器</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="111" UniqueID="{288F52E1-0C11-405A-B883-DB3FCE73AE38}" Name="矩形.6" NameU="Rectangle.6" Master="2">
+					<Text>CLOUD</Text>
+					<XForm>
+						<PinX Unit="MM">3.764142146705346</PinX>
+						<PinY Unit="MM">3.569881889763779</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{C47F357F-513F-4514-9F2C-92DD7DB3E290}" Name="動態連接器.50" NameU="Dynamic connector.50" Master="4">
+					<Text>R_Photo
+M_Photo</Text>
+					<XForm>
+						<PinX Unit="MM">2.917685453791961</PinX>
+						<PinY Unit="MM">3.795073719236200</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="51" UniqueID="{249F57A1-A797-49F2-8A6E-E499ED85B060}" Name="動態連接器.51" NameU="Dynamic connector.51" Master="4">
+					<Text>M_Photo
+L_Photo</Text>
+					<XForm>
+						<PinX Unit="MM">2.917685453791961</PinX>
+						<PinY Unit="MM">2.754411298576178</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="15" UniqueID="{1C73BC22-F5B3-4427-A79A-4DB63A84072A}" Name="矩形.15" NameU="Rectangle.15" Master="2">
+					<Text>Get image[3] source
+Distribute photo</Text>
+					<XForm>
+						<PinX Unit="MM">1.417322834645670</PinX>
+						<PinY Unit="MM">4.004460488145352</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="16" UniqueID="{141B5175-5C0B-4747-A7CB-9BE504366CA7}" Name="矩形.3" NameU="Rectangle.3" Master="2">
+					<Text>
+
+
+
+
+
+
+
+RSP3</Text>
+					<XForm>
+						<PinX Unit="MM">1.425922088686283</PinX>
+						<PinY Unit="MM">3.397234052645628</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/daniel/client.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/daniel/client.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="38" UniqueID="{EE246AAA-63F3-4BD0-BE26-9D9A57520BC3}" Name="矩形.38" NameU="Rectangle.38" Master="2">
+					<Text>	RSP1</Text>
+					<XForm>
+						<PinX Unit="MM">5.796000828843765</PinX>
+						<PinY Unit="MM">3.397234052645629</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{801648BE-BBFD-412E-AB7A-EAE61226A3AC}" Name="矩形.39" NameU="Rectangle.39" Master="2">
+					<Text>S
+U
+B
+S
+C
+R
+I
+b
+E
+R</Text>
+					<XForm>
+						<PinX Unit="MM">5.244819726481564</PinX>
+						<PinY Unit="MM">3.397234052645629</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="44" UniqueID="{6A5E6958-A022-4FFB-8697-E8D4527A57B9}" Name="矩形.44" NameU="Rectangle.44" Master="2">
+					<Text>Stitch photo
+(R-M)  (M-L)</Text>
+					<XForm>
+						<PinX Unit="MM">6.032221301284710</PinX>
+						<PinY Unit="MM">3.505501769181064</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="3" UniqueID="{177B8D3D-70D2-438C-AAF7-0ED9100F5A5C}" Name="Sheet.3" NameU="Rectangle.3" Master="2">
+					<Text>RSP1</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135102</PinX>
+						<PinY Unit="MM">5.208257674692874</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{72B1FE82-E27F-4B8D-83E4-187190CD1AD1}" Name="矩形.26" NameU="Rectangle.26" Master="2">
+					<Text>Subscriber</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135102</PinX>
+						<PinY Unit="MM">4.610721479620484</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="46" UniqueID="{8969C279-CF49-4C3C-9055-EDD08FAA8588}" Name="矩形.46" NameU="Rectangle.46" Master="2">
+					<Text>Stitch photo
+(R)  (M)</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135103</PinX>
+						<PinY Unit="MM">5.451463161103845</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="29" UniqueID="{04D2B069-990E-4242-BCD3-3AE573D4319F}" Name="矩形.29" NameU="Rectangle.29" Master="2">
+					<Text>RSP1</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135101</PinX>
+						<PinY Unit="MM">1.586210430598385</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{154DA2A4-BE6A-40B0-919D-873A581818AB}" Name="矩形.30" NameU="Rectangle.30" Master="2">
+					<Text>Subscriber</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135101</PinX>
+						<PinY Unit="MM">2.183746625670775</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="47" UniqueID="{22BFDF23-BE54-47A3-A0BB-3F19CECD3E9E}" Name="矩形.47" NameU="Rectangle.47" Master="2">
+					<Text>Stitch photo
+(M)  (L)</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135102</PinX>
+						<PinY Unit="MM">1.343004944187412</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="65" UniqueID="{7199ADF0-769A-4DBE-8665-0B12DD46AAED}" Name="動態連接器.65" NameU="Dynamic connector.65" Master="4">
+					<Text>M-R_Photo</Text>
+					<XForm>
+						<PinX Unit="MM">5.244819726481564</PinX>
+						<PinY Unit="MM">4.514101023221674</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="67" UniqueID="{86029CD7-EC42-4F1B-BC7D-A445C57BA252}" Name="動態連接器.67" NameU="Dynamic connector.67" Master="4">
+					<Text>L-M_Photo</Text>
+					<XForm>
+						<PinX Unit="MM">5.244819726481564</PinX>
+						<PinY Unit="MM">2.281338383354289</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="106" UniqueID="{F5127227-561D-48FE-A98B-2BAC2AD64ECB}" Name="矩形.106" NameU="Rectangle.106" Master="2">
+					<Text>UI</Text>
+					<XForm>
+						<PinX Unit="MM">8.818897637795272</PinX>
+						<PinY Unit="MM">3.672723621148160</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="107" UniqueID="{64970A96-3AF7-459F-BBEE-6ED68CF35AF9}" Name="動態連接器" NameU="Dynamic connector" Master="4">
+					<Text>(L-M-R)Photo</Text>
+					<XForm>
+						<PinX Unit="MM">7.090913800248661</PinX>
+						<PinY Unit="MM">3.534978836896895</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="114" UniqueID="{FD955B72-C85C-4074-B0CE-84B4169E9FC4}" Name="矩形" NameU="Rectangle" Master="2">
+					<Text>M
+Q
+T
+T</Text>
+					<XForm>
+						<PinX Unit="MM">4.418048072938252</PinX>
+						<PinY Unit="MM">3.397234052645628</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="115" UniqueID="{01771CC6-8D01-4A99-B68F-C210E1746742}" Name="Sheet.115" NameU="Sheet.115">
+					<Text>Ethernet</Text>
+					<XForm>
+						<PinX Unit="MM">7.104227103191048</PinX>
+						<PinY Unit="MM">3.879046369203849</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="116" UniqueID="{9F865CFD-0E94-4E0A-9E3C-15193076F5F4}" Name="Sheet.116" NameU="Sheet.116">
+					<XForm>
+						<PinX Unit="MM">1.417322834645670</PinX>
+						<PinY Unit="MM">3.346456692913384</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="23" UniqueID="{57462A68-8E5A-43AB-9BC4-9E737F5DE053}" Name="矩形.23" NameU="Rectangle.23" Master="2">
+					<Text>Publish</Text>
+					<XForm>
+						<PinX Unit="MM">1.417322834645670</PinX>
+						<PinY Unit="MM">3.577387833446027</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{F311C8F3-58CF-4BE6-B626-438E190B3ED9}" Name="矩形.24" NameU="Rectangle.24" Master="2">
+					<Text>Broker</Text>
+					<XForm>
+						<PinX Unit="MM">1.417322834645670</PinX>
+						<PinY Unit="MM">3.115525552380742</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{AFA6CA83-A0A1-4B57-BB54-A7095CF077B4}" Name="簡單箭號" NameU="Simple Arrow" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.425922088686283</PinX>
+						<PinY Unit="MM">3.367706493590509</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="117" UniqueID="{06443FC5-3340-4222-A82A-4E21D8CA4430}" Name="Sheet.117" NameU="Sheet.117">
+					<XForm>
+						<PinX Unit="MM">4.418048072938252</PinX>
+						<PinY Unit="MM">5.031092320362166</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="2" UniqueID="{85C2D914-34D2-4D3C-ABD4-692444B175B1}" Name="矩形.2" NameU="Rectangle.2" Master="2">
+					<Text>Broker</Text>
+					<XForm>
+						<PinX Unit="MM">5.205449647741402</PinX>
+						<PinY Unit="MM">5.031092320362166</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{1ED023CD-0862-45C7-8787-19BA8B9E9278}" Name="矩形.27" NameU="Rectangle.27" Master="2">
+					<Text>Publish</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135103</PinX>
+						<PinY Unit="MM">5.031092320362166</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{602E41AC-CE92-488C-90FE-7165ECF00EEF}" Name="簡單箭號.62" NameU="Simple Arrow.62" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.418048072938252</PinX>
+						<PinY Unit="MM">5.031092320362165</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="118" UniqueID="{F4029CE8-3A55-462C-9FA1-4162F30B806F}" Name="Sheet.118" NameU="Sheet.118">
+					<XForm>
+						<PinX Unit="MM">4.418048072938252</PinX>
+						<PinY Unit="MM">1.763375784929093</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="28" UniqueID="{8B14585C-4CC8-4E2A-AB83-B977D3696E79}" Name="矩形.28" NameU="Rectangle.28" Master="2">
+					<Text>Broker</Text>
+					<XForm>
+						<PinX Unit="MM">5.205449647741402</PinX>
+						<PinY Unit="MM">1.763375784929093</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{DD204C7E-4A84-4981-A77C-6748DC60BEBA}" Name="矩形.31" NameU="Rectangle.31" Master="2">
+					<Text>Publish</Text>
+					<XForm>
+						<PinX Unit="MM">3.630646498135102</PinX>
+						<PinY Unit="MM">1.763375784929093</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="61" UniqueID="{BA6CBCB5-F99B-4F0C-AE91-0636A6A4E25F}" Name="簡單箭號.61" NameU="Simple Arrow.61" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.418048072938253</PinX>
+						<PinY Unit="MM">1.763375784929093</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="121" UniqueID="{E3A5EDB9-4513-466A-9B3D-2D8B481CC15E}" Name="Sheet.121" NameU="Sheet.121">
+					<Text>主要參數:
+(MQTT)
+	1.Host Address
+	2.Port Number
+	3.Topic Name
+(Stitch)
+	1.Matches
+	2.m1.distance
+	3.min_matches
+</Text>
+					<XForm>
+						<PinX Unit="MM">8.783464566929133</PinX>
+						<PinY Unit="MM">6.231778739258397</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

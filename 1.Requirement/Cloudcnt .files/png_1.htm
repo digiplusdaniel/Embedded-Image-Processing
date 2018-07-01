@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+RSP雲端模擬
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 0.436462;
+	viewMgr.visBBoxRight = 10.044579;
+	viewMgr.visBBoxBottom = 0.244792;
+	viewMgr.visBBoxTop = 7.696498;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="顯示選取圖形的位置" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = '若要啟用完整功能，例如全景和縮放，<a href="http://www.microsoft.com/silverlight/resources/install.aspx" target="parent">按一下此處</a> 需安裝 Silverlight 外掛程式。';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="頁-1" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,549,382,562,382,549" onmouseover="UpdateTooltip(this,0,118,event)" onfocus="UpdateTooltip(this,0,118,event)" onclick="return OnShapeClick(0,118,event);" onkeyup="OnShapeKey(0,118,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,589,533,589,533,549,382,549,231,549,231,589,382,589" onmouseover="UpdateTooltip(this,0,118,event)" onfocus="UpdateTooltip(this,0,118,event)" onclick="return OnShapeClick(0,118,event);" onkeyup="OnShapeKey(0,118,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,589,382,577,382,589" onmouseover="UpdateTooltip(this,0,118,event)" onfocus="UpdateTooltip(this,0,118,event)" onclick="return OnShapeClick(0,118,event);" onkeyup="OnShapeKey(0,118,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,236,382,248,382,236" onmouseover="UpdateTooltip(this,0,117,event)" onfocus="UpdateTooltip(this,0,117,event)" onclick="return OnShapeClick(0,117,event);" onkeyup="OnShapeKey(0,117,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,276,533,276,533,236,382,236,231,236,231,276,382,276" onmouseover="UpdateTooltip(this,0,117,event)" onfocus="UpdateTooltip(this,0,117,event)" onclick="return OnShapeClick(0,117,event);" onkeyup="OnShapeKey(0,117,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="382,276,382,263,382,276" onmouseover="UpdateTooltip(this,0,117,event)" onfocus="UpdateTooltip(this,0,117,event)" onclick="return OnShapeClick(0,117,event);" onkeyup="OnShapeKey(0,117,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_publish.py" target="_top" COORDS="170,417,170,373,19,373,19,417,19,462,170,462,170,417" onmouseover="UpdateTooltip(this,0,116,event)" onfocus="UpdateTooltip(this,0,116,event)" onclick="return OnShapeClick(0,116,event);" onkeyup="OnShapeKey(0,116,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stitch photo (M)  (L)" origTitle="Stitch photo (M)  (L)" TITLE="Stitch photo (M)  (L)" HREF="https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py" target="_top" COORDS="231,630,382,630,382,590,231,590,231,630" onmouseover="UpdateTooltip(this,0,47,event)" onfocus="UpdateTooltip(this,0,47,event)" onclick="return OnShapeClick(0,47,event);" onkeyup="OnShapeKey(0,47,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Subscriber" origTitle="Subscriber" TITLE="Subscriber" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py" target="_top" COORDS="231,549,382,549,382,509,231,509,231,549" onmouseover="UpdateTooltip(this,0,30,event)" onfocus="UpdateTooltip(this,0,30,event)" onclick="return OnShapeClick(0,30,event);" onkeyup="OnShapeKey(0,30,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stitch photo (R)  (M)" origTitle="Stitch photo (R)  (M)" TITLE="Stitch photo (R)  (M)" HREF="https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py" target="_top" COORDS="231,236,382,236,382,195,231,195,231,236" onmouseover="UpdateTooltip(this,0,46,event)" onfocus="UpdateTooltip(this,0,46,event)" onclick="return OnShapeClick(0,46,event);" onkeyup="OnShapeKey(0,46,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Subscriber" origTitle="Subscriber" TITLE="Subscriber" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py" target="_top" COORDS="231,316,382,316,382,276,231,276,231,316" onmouseover="UpdateTooltip(this,0,26,event)" onfocus="UpdateTooltip(this,0,26,event)" onclick="return OnShapeClick(0,26,event);" onkeyup="OnShapeKey(0,26,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stitch photo (R-M)  (M-L)" origTitle="Stitch photo (R-M)  (M-L)" TITLE="Stitch photo (R-M)  (M-L)" HREF="https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py" target="_top" COORDS="484,469,590,469,590,335,484,335,484,469" onmouseover="UpdateTooltip(this,0,44,event)" onfocus="UpdateTooltip(this,0,44,event)" onclick="return OnShapeClick(0,44,event);" onkeyup="OnShapeKey(0,44,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="S U B S C R I b E R" origTitle="S U B S C R I b E R" TITLE="S U B S C R I b E R" HREF="https://github.com/digiplusdaniel/embedded/blob/william/MQTT_client.py" target="_top" COORDS="439,490,484,490,484,335,439,335,439,490" onmouseover="UpdateTooltip(this,0,39,event)" onfocus="UpdateTooltip(this,0,39,event)" onclick="return OnShapeClick(0,39,event);" onkeyup="OnShapeKey(0,39,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="RSP3" origTitle="RSP3" TITLE="RSP3" HREF="https://github.com/digiplusdaniel/embedded/blob/daniel/client.py" target="_top" COORDS="19,490,171,490,171,335,19,335,19,490" onmouseover="UpdateTooltip(this,0,16,event)" onfocus="UpdateTooltip(this,0,16,event)" onclick="return OnShapeClick(0,16,event);" onkeyup="OnShapeKey(0,16,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Get image[3] source Distribute photo" origTitle="Get image[3] source Distribute photo" TITLE="Get image[3] source Distribute photo" HREF="https://github.com/digiplusdaniel/embedded/blob/master/stitch_images.py" target="_top" COORDS="19,374,170,374,170,335,19,335,19,374" onmouseover="UpdateTooltip(this,0,15,event)" onfocus="UpdateTooltip(this,0,15,event)" onclick="return OnShapeClick(0,15,event);" onkeyup="OnShapeKey(0,15,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>

@@ -7,10 +7,12 @@ Paho-mqtt -- 1.3.1
 
 Installation Manual : 
 Raspbian Python Numpy OpenCV :
+
 https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 
 Paho-mqtt :
 $ sudo pip install paho-mqtt
+
 https://pypi.org/project/paho-mqtt/
 
 step0. erect the webcam on MCU by USB hub
@@ -32,6 +34,6 @@ step4. execute the program
 ![RSP2](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/2.PNG)
 
 step5. open UI.exe and the panorama will show on UI
-
+![UI](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/UI.PNG)
 
 

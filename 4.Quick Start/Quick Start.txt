@@ -13,6 +13,8 @@ Paho-mqtt :
 $ sudo pip install paho-mqtt
 https://pypi.org/project/paho-mqtt/
 
+step0. erect the webcam on MCU by USB hub
+
 step1. enter CloudMQTT and register github account (website:https://customer.cloudmqtt.com/login)
 
 step2. create a free broker and you can get the MQTT infomation 
@@ -29,14 +31,5 @@ step4. execute the program
 
 step5. the panorama will show on UI
 
-Manual : 
-MCU --> MCU_TCPSend.py
 
-Raspberry Pi 1 --> Rasp1_MQTTPUB_ImageArray_TCPRecive.py
-
-Raspberry Pi 2 --> Rasp2_MQTTSCB_Panorama_TCPSend.py
-
-Raspberry Pi 3 --> Rasp3_MQTTSCB_Panorama_TCPSend.py
-
-UI --> UI.exe
 

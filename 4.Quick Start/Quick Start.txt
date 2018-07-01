@@ -14,6 +14,14 @@ $ sudo pip install paho-mqtt
 https://pypi.org/project/paho-mqtt/
 
 
+step1. download embedded/6.Source Code/MCU_TCPSend.py、Rasp1_MQTTPUB_ImageArray_TCPRecive.py、Rasp2_MQTTSCB_Panorama_TCPSend.py
+
+step2. open Raspberry's terminal and cd to the your file location 
+
+step3. execute the program
+
+step4.
+
 Manual : 
 MCU --> MCU_TCPSend.py
 

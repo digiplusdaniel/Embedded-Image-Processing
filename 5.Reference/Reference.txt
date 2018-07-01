@@ -14,3 +14,4 @@ MQTT
   
 Socket
   https://pymotw.com/2/socket/tcp.html
+  http://zake7749.github.io/2015/03/17/SocketProgramming/         

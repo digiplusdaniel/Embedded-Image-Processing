@@ -6,10 +6,9 @@ import numpy as np
 
 filename = "receive.jpg"
 Con_Flag=0
-host = '192.168.1.111'  
-port = 5555
-#host = socket.gethostname()
-# port = 5000
+host = '192.168.1.111'  # sever's IP
+port = 5555 # sever's host
+
 address = (host, port)
 
 

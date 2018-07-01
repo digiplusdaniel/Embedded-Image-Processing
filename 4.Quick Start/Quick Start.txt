@@ -13,14 +13,21 @@ Paho-mqtt :
 $ sudo pip install paho-mqtt
 https://pypi.org/project/paho-mqtt/
 
+step1. enter CloudMQTT and register github account (website:https://customer.cloudmqtt.com/login)
 
-step1. download embedded/6.Source Code/MCU_TCPSend.py、Rasp1_MQTTPUB_ImageArray_TCPRecive.py、Rasp2_MQTTSCB_Panorama_TCPSend.py
+step2. create a free broker and you can get the MQTT infomation 
+放圖
 
-step2. open Raspberry's terminal and cd to the your file location 
+step3. connect to MQTT monitor->websocket UI(P.S. if you want to see the dataflow)
 
-step3. execute the program
+step2. download embedded/6.Source Code/MCU_TCPSend.py、Rasp1_MQTTPUB_ImageArray_TCPRecive.py、Rasp2_MQTTSCB_Panorama_TCPSend.py
 
-step4.
+step3. open Raspberry's terminal and cd to the your file location 
+
+step4. execute the program
+放圖放圖放圖
+
+step5. the panorama will show on UI
 
 Manual : 
 MCU --> MCU_TCPSend.py

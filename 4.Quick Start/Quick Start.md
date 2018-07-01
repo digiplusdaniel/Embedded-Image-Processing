@@ -35,7 +35,7 @@ step5. Open Raspberry's terminal and cd to the your file location
 
 step6. Execute the program
 ![RSP1](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/RSP1_exe.PNG)
-![MCU](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/MCU.PNG)
+![MCU](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/MCU_exe.PNG)
 ![RSP2](https://github.com/digiplusdaniel/embedded/blob/master/4.Quick%20Start/RSP2_exe.PNG)
 
 step6. Open UI.exe and the panorama will show on UI

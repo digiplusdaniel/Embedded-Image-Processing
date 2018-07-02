@@ -7,7 +7,7 @@ output : image array
 
 ![MCU](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/MCU_block.png)
 [MCU_Code](https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/MCU_TCPSend.py)
-[MCU_class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/MCU_class.png)
+[MCU_Class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/MCU_class.png)
 
 Raspberry Pi 1
 input  : image array
@@ -17,7 +17,7 @@ output : image array
 
 ![RSP1](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/RSP1_block.png)
 [RSP1_Code](https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/Rasp1_MQTTPUB_ImageArray_TCPRecive.py)
-[RSP1_class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Distributor.png)
+[RSP1_Class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Distributor.png)
 
 Raspberry Pi 2
 input  : image array
@@ -28,7 +28,7 @@ output : Stitched image
 
 ![RSP2](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/RSP2_block.png)
 [RSP2_Code](https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/Rasp2_MQTTSCB_Panorama_TCPSend.py)
-[RSP2_class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Distributor.png)
+[RSP2_Class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Distributor.png)
 
 Raspberry Pi 3
 input  : image array
@@ -39,7 +39,7 @@ output : Stitched image
 
 ![RSP3](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/RSP3_block.png)
 [RSP3_Code](https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/Rasp2_MQTTSCB_Panorama_TCPSend.py)
-[RSP3_class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Executor.png)
+[RSP3_Class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/RSP_Executor.png)
 
 UI
 input  : Stitched image
@@ -49,6 +49,6 @@ output : VGA
 
 ![UI](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/UI_block.png)
 [UI_Code](https://github.com/digiplusdaniel/embedded/blob/master/6.Source%20Code/UI/UI/Form1.cs)
-[UI_class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/UI_class.png)
+[UI_Class](https://github.com/digiplusdaniel/embedded/blob/master/2.Analysis/UI_class.png)
 
 ![Arch](https://github.com/digiplusdaniel/embedded/blob/master/3.Design/Architecture%20diagram.png)
